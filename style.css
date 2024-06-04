@@ -1,0 +1,70 @@
+body{
+    background: rgb(212, 212, 212);
+}
+
+header{
+    background-color: #757575;
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+
+.headerShop{
+    color:rgb(170, 170, 170);
+    width: 40%;
+}
+
+.lista{
+    width: 40%;
+}
+.lista ul{
+    list-style-type: none;
+    display: flex;
+    margin-right: 10px ;
+    width: 50%;
+}
+.lista li{
+    width: 50%;
+    height: 25px;
+    color: rgb(159, 159, 159);
+    padding: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px;
+}
+a:hover{
+    background-color: #ffffff;
+    color:  #757575;
+    padding: 10px;
+
+}
+section{
+    background-color: rgb(205, 205, 205);
+    height: 500px;
+}
+
+footer{
+    background-color: aqua;
+    height: 100px;
+}
+
+/* Css página home */
+
+.textoHome{
+    color: white;
+}
+
+/* Css página imagens */
+.textoImagem{
+    color: white;
+}
+
+/* Css página Vídeos */
+.textoVídeos{
+    color: rgb(151, 22, 22);
+}
