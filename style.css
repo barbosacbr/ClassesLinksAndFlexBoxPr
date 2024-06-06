@@ -1,3 +1,7 @@
+*{
+    margin:0;
+}
+
 body{
     background: rgb(212, 212, 212);
 }
@@ -7,6 +11,7 @@ header{
     height: 100px;
     width: 100%;
     display: flex;
+    position: fixed;
 }
 
 .headerShop{
@@ -30,6 +35,7 @@ header{
     padding: 10px;
     margin-right: 10px;
     text-align: center;
+ 
 }
 
 a{
@@ -42,10 +48,12 @@ a:hover{
     color:  #757575;
     padding: 10px;
 
+
+
 }
 section{
     background-color: rgb(205, 205, 205);
-    height: 500px;
+    height: 700px;
 }
 
 footer{
@@ -60,8 +68,37 @@ footer{
 }
 
 /* Css página imagens */
-.textoImagem{
-    color: white;
+.sectionPagImg{
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-around;
+    align-items: center;
+    height: 1100px;
+}
+.b1{
+    background-image: url("https://media.licdn.com/dms/image/C4E03AQHLeokVfg8fWQ/profile-displayphoto-shrink_200_200/0/1552050113566?e=1723075200&v=beta&t=EfTLx4YtfRIzEGRS52hjhub1STELqfVBMR3ilShDKtI");
+    width: 170px;
+    height: 120px;
+    background-position: 200px 180px;
+}
+.b2{
+    background-image: url("https://media.licdn.com/dms/image/D4D16AQF0JcLwVkBXBw/profile-displaybackgroundimage-shrink_350_1400/0/1708977535599?e=1723075200&v=beta&t=dLZoqQkbkItWUo06tjaO2fCwkdJs6UWL1mj1L0SmdyE");
+    width: 170px;
+    height: 120px;
+    background-size: 605px;
+    background-position: 360px;
+}
+.b3{
+    background-image: url("https://media.licdn.com/dms/image/D4D03AQHEx_kNdsvPgw/profile-displayphoto-shrink_200_200/0/1703370646274?e=1723075200&v=beta&t=Sutff88vysfQNL9RGy0YMs7v7dp6Oaj5rD_Eu_c6iSI");
+    width: 170px;
+    height: 120px;
+    background-position: 200px;
+}
+.b4{
+    background-image: url("https://media.licdn.com/dms/image/D4D03AQFCEjpUFAaq4w/profile-displayphoto-shrink_200_200/0/1713271113527?e=1723075200&v=beta&t=u32EgbcY5Nr17Nx38xazc6I3p-iR5JhoD8xSjcY19Sg");
+    width: 170px;
+    height: 120px;
+    background-position: 200px;
 }
 
 /* Css página Vídeos */
