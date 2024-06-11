@@ -8,7 +8,7 @@ body{
 
 header{
     background-color: #757575;
-    height: 100px;
+    height: 50px;
     width: 100%;
     display: flex;
     position: fixed;
@@ -104,4 +104,30 @@ footer{
 /* Css página Vídeos */
 .textoVídeos{
     color: rgb(151, 22, 22);
+}
+
+/* Css contatos */
+
+form{
+
+    background-color: rgb(162, 162, 162);
+    border-radius: 10px;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+      font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+
+
+}
+.sectionContatos{
+
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
